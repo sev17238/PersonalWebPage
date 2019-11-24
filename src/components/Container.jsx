@@ -6,16 +6,24 @@ import '../css/global';
 import { Parallax, Background } from 'react-parallax';
 import Header from './header/Header';
 import AboutMe from './main/AboutMe';
+//import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
+import Zoom from 'react-reveal/Zoom';
 //import classnames from 'classnames';
 
 export default class Container extends React.Component {
     constructor(props) {
         super(props);
-
+        this.state = { show: false };
         /*this.state = {
             prevScrollpos: window.pageYOffset,
             visible: true
         };*/
+    }
+
+    componentDidMount() {
+        setTimeout(() => {
+          this.setState({ show: true });
+        }, 200);
     }
     /*
     componentDidMount() {
@@ -67,14 +75,18 @@ export default class Container extends React.Component {
                     bgImageAlt="Skeme"
                     strength={200}
                 >
-                    <div className='divv1'>
-                        <div className='divv2-center'>
-                            <div className='cloud1'></div>
-                            <div className='cloud2'></div>
-                            <p className="NameIntro">Great View!</p>
-                            <p className="Name">Isn&lsquo;t it?</p>                            
-                        </div>                       
-                    </div>
+                    <Zoom>
+                        <div className='divv1'>
+                            <Zoom cascade>
+                                <div className='divv2-center'>
+                                    <div className='cloud1'></div>
+                                    <div className='cloud2'></div>                                  
+                                    <p className="NameIntro">Great View!</p>
+                                    <p className="Name">Isn&lsquo;t it?</p>                                                       
+                                </div> 
+                            </Zoom>                      
+                        </div>
+                    </Zoom>
                 </Parallax>
                 <main>
                     <AboutMe/>
@@ -129,3 +141,6 @@ export default class Container extends React.Component {
                     'Hide': !this.state.visible
                 })}/>
             */
+
+            /* <ReactRevealText text="Great View!" className='NameIntro' show={this.state.show}/>     
+                            <ReactRevealText text="Isn't it?" className='Name' show={this.state.show}/>     */
