@@ -40,12 +40,12 @@ main{
 
 
 //Thinking Cloud ---------------------------------------------------------
-.divv1{
+.divv1-cloud{
     height: 41em;
 
 }
 
-.divv2-center{
+.divv2-center-cloud{
     position: absolute;
     top: 27%;
     left: 50%;
@@ -54,6 +54,15 @@ main{
     text-align: center;
     background-color: whitesmoke;
     border-radius: 75%;
+    transition-duration: 0.5s;
+}
+.divv2-center-cloud:hover{
+    top: 25%;
+    transform: translateY(2px);
+    height: 14%;
+    width: 16%;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .cloud1{

@@ -1,6 +1,6 @@
 
 .div1-am{
-    height: 31em;
+    //height: 31em;
     width: 100%;
     //background-color: rgba(208, 204, 208, 1);
     background-color: rgb(25, 24, 26);
@@ -16,7 +16,7 @@
     font-size: 1em;
     color: whitesmoke;
     //padding: 5%;
-    padding-top: 30%;
+    padding-top: 25%;
     margin: 0%;
     text-justify: auto;
 }
@@ -53,20 +53,23 @@
 }
 
 .image-me{
-    width: 95%;
+    width: 90%;
     border-radius: 100%;
+    border: 10px solid rgba(47, 45, 48, 0.85);
     //align-content: center;
 }
 
 .column-center{
     margin: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     //border-right: 3px solid whitesmoke;
     //align-content: center;
 }
 .column-right{
-    //margin: 1em;
+    margin: 1em;
     padding-right: 0%;
-    margin-right: 0%;
+    //margin-right: 0%;
 }
 .column-left{
     margin: 1em;

@@ -6,6 +6,7 @@ import '../css/global';
 import { Parallax, Background } from 'react-parallax';
 import Header from './header/Header';
 import AboutMe from './main/AboutMe';
+import Quote from './main/Quote';
 //import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
 import Zoom from 'react-reveal/Zoom';
 //import classnames from 'classnames';
@@ -52,7 +53,7 @@ export default class Container extends React.Component {
         let header = document.getElementById('headercontent'); 
         //let headernav = document.getElementById('headernav');
         let windowsScrollTop = window.pageYOffset;
-        if(windowsScrollTop <= 200){
+        if(windowsScrollTop <= 350){
             header.classList.remove('bgColor');
             //headernav.classList.remove('is-not-active');
 
@@ -76,9 +77,9 @@ export default class Container extends React.Component {
                     strength={200}
                 >
                     <Zoom>
-                        <div className='divv1'>
+                        <div className='divv1-cloud'>
                             <Zoom cascade>
-                                <div className='divv2-center'>
+                                <div className='divv2-center-cloud'>
                                     <div className='cloud1'></div>
                                     <div className='cloud2'></div>                                  
                                     <p className="NameIntro">Great View!</p>
@@ -90,6 +91,7 @@ export default class Container extends React.Component {
                 </Parallax>
                 <main>
                     <AboutMe/>
+                    <Quote/>
                 </main>
                 
 

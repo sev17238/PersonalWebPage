@@ -69,10 +69,13 @@
     width: 56px;
     height: 56px;
     top: -18px;
+    transition-duration: 0.5s;
 }
 
 .DS-div:hover{
     opacity: .75;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .DS-div p{

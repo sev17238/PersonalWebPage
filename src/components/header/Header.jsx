@@ -1,10 +1,10 @@
 /*
-    ./client/components/Header.jsx
+    ./src/components/Header.jsx
 */
 import React from 'react';
 import HeaderNav from './HeaderNav';
 import '../../css/Header';
-import '../../css/global';
+//import '../../css/global';
 
 export default class Header extends React.Component {
     /*constructor(props) {
