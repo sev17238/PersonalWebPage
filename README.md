@@ -15,7 +15,7 @@ My Personal Web Page
   </a>
 </p>
 
-<p align="center">College project. :mortar_board:</p>
+<!--<p align="center">College project. :mortar_board:</p>-->
 
 <hr />
 

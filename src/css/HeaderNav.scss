@@ -1,0 +1,43 @@
+
+.header-nav{
+    position: relative;
+    //display: none;
+    width: 100%;
+    //border-bottom: 1px solid #777a7b;
+    z-index: 997;
+    text-align: center;
+    padding: 14px 0;    
+    top: 30px;
+}
+
+.header-nav-in{
+    display: inline-block;
+    padding: 0 20px;
+    //border-left: 1px solid white;
+}
+.header-nav-in:first-child { //this is to get rid of the first "|" in:  ELECTRIC GUITARS | BASSES | etc...
+    border:none
+}
+
+.header-nav-in a {
+    display:block;
+    //font-family:Raleway,sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+    line-height:1;
+    color:#fff;
+    text-decoration: none; //remove underline from hyperlink
+}
+
+.is-not-active {
+    //display: block;
+    display: none
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.anchorHover:hover{
+    opacity: 0.75;
+}

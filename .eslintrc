@@ -15,7 +15,7 @@
           "jsx": true
         }
     },
-    "extends": [/*"airbnb","airbnb/hooks",*/
+    "extends": [/*"airbnb",*/"airbnb/hooks",
     "eslint:recommended",
     "plugin:react/recommended"],
     "plugins": [
@@ -50,7 +50,8 @@
     "rules": {
         "indent": ["error", 4],
         "quotes": [ "error", "single" ],
-        "semi": [ "error", "always"]
+        "semi": [ "error", "always"],
+        "classProperties": 1
         //"space-in-parens": ["error", "never"]
     }
   }
