@@ -1,5 +1,5 @@
 /*
-    ./src/components/AboutMe
+    ./src/components/main/AboutMe
 */
 import React from 'react';
 import '../../css/AboutMe';
@@ -51,7 +51,7 @@ export default class AboutMe extends React.Component {
                             <Slide right>
                                 <div className='column-div-2'>
                                     <p className='p-am-des'>I&lsquo;m currently studying Computing Science Engeeniring
-                                    at <a href='https://www.uvg.edu.gt/'>Universidad del Valle de Guatemala</a>. I have this habit of being a perfectionist in 
+                                    at <a className='anchor-am' href='https://www.uvg.edu.gt/'>Universidad del Valle de Guatemala</a>. I have this habit of being a perfectionist in 
                                     all the things I do, I like to spend time working on small details and giving my best to solve problems.
                                     </p>
                                 </div>

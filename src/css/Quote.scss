@@ -16,6 +16,12 @@
     color: rgba(222, 224, 208, 1);
     font-style: italic;
     text-align: center;
+    transition-duration: 0.5s;
+}
+.p-quote:hover{
+    font-size: 2.1em;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .p-quote-ref{

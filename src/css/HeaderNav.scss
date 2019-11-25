@@ -21,12 +21,14 @@
 
 .header-nav-in a {
     display:block;
-    //font-family:Raleway,sans-serif;
     font-family: 'Courier New', Courier, monospace;
     font-size:15px;
     line-height:1;
     color:#fff;
+    font-style: bold;
+    //color: rgba(47, 45, 48, 1);
     text-decoration: none; //remove underline from hyperlink
+    transition-duration: 0.25s;
 }
 
 .is-not-active {
@@ -40,4 +42,8 @@ ul, ol{
 
 .anchorHover:hover{
     opacity: 0.75;
+    text-decoration: none;
+    transition-duration: 0.25s;
+    font-size:16px;
+    color:#fff;
 }

@@ -18,7 +18,7 @@
     //padding: 5%;
     padding-top: 25%;
     margin: 0%;
-    text-justify: auto;
+    text-align: justify;
 }
 
 .h4-am{
@@ -84,7 +84,7 @@
 
 .column-div-2{
     text-align: left;
-    padding-right: 20%;
+    padding-right: 28%;
 }
 
 .extra-div{
@@ -94,4 +94,16 @@
 
 .row{
     width: 100%;
+}
+
+.anchor-am{
+    text-decoration: none; //remove underline from hyperlink
+    transition-duration: 0.25s;
+    color:rgb(124, 179, 190);
+}
+
+.anchor-am:hover{
+    text-decoration: none; //remove underline from hyperlink
+    transition-duration: 0.25s;
+    color:rgba(147, 183, 190, 0.85);
 }

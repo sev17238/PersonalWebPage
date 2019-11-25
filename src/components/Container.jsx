@@ -7,6 +7,8 @@ import { Parallax, Background } from 'react-parallax';
 import Header from './header/Header';
 import AboutMe from './main/AboutMe';
 import Quote from './main/Quote';
+import Experiences from './main/Experiences';
+import Abilities from './main/Abilities';
 //import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
 import Zoom from 'react-reveal/Zoom';
 //import classnames from 'classnames';
@@ -92,6 +94,8 @@ export default class Container extends React.Component {
                 <main>
                     <AboutMe/>
                     <Quote/>
+                    <Experiences/>
+                    <Abilities/>
                 </main>
                 
 
