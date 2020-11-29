@@ -95,7 +95,7 @@ export default class Container extends React.Component {
                 </Parallax>
                 <main>
                     <AboutMe/>
-                    <Quote quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2019'/>
+                    <Quote quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
                     <Experiences/>
                     <Abilities/>
                     <Projects/>

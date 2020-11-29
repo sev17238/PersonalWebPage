@@ -47,8 +47,8 @@ export default class Projects extends React.Component {
                                         <CardBody>
                                         <CardTitle>Ibanez Guitars</CardTitle>
                                         <CardSubtitle>Ibanez Guitars Website Clone</CardSubtitle>
-                                        <CardText>This project is part of Web Systems and Technologies course in Universidad del Valle.
-                                            The goal was to copy the style of the website.
+                                        <CardText>This project was part of Web Systems and Technologies course in Universidad del Valle.
+                                            The goal was to copy the style of a website.
                                         </CardText>
                                         <Button href='https://github.com/sev17238/Project1_WebPage'>See Project</Button>
                                         </CardBody>
@@ -64,7 +64,7 @@ export default class Projects extends React.Component {
                                         <CardBody>
                                         <CardTitle>Ukron</CardTitle>
                                         <CardSubtitle>The videogame</CardSubtitle>
-                                        <CardText>This videogame is part of Advanced videogame programming course. Ukron
+                                        <CardText>This videogame was part of Advanced Videogame Programming course. Ukron
                                             is an indi game where you can shoot enemies, take wepons and much more.
                                         </CardText>
                                         <Button href='https://diego-sevilla.itch.io/ukron'>See Project</Button>

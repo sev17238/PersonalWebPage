@@ -15,7 +15,7 @@ export default class Abilities extends React.Component {
 
     render() {
         return (
-            <section>                
+            <section>
                 <div id='abilities' className='div1-ab'>
                     <div  className='div-title-ab'><h3 className='title-ab'>Abilities</h3></div>
                     <div className='div2-ab'>   
@@ -42,7 +42,7 @@ export default class Abilities extends React.Component {
                                     <AbModule skill='UML' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                                     <AbModule skill='React' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                                     <AbModule skill='Webpack' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                                    <AbModule skill='MongoDB' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
+                                    <AbModule skill='MongoDB' color1='MidnightBlue' color2='MidnightBlue' color3='CadetBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
                                 </ul>
                             </Col>
                         </Row>
@@ -53,15 +53,15 @@ export default class Abilities extends React.Component {
                                 <ul className='ul-ab'>   
                                     <AbModule skill='Digital electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
                                     <AbModule skill='Analog electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>                                    
-                                    <AbModule skill='PIC' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
-                                    <AbModule skill='Arduino' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
+                                    <AbModule skill='PIC' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
+                                    <AbModule skill='Arduino' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/> 
                                     <AbModule skill='RaspBerry Pi 3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/> 
                                 </ul>                                
                             </Col>
                             <Col xs="6">
                                 <ul  className='ul-ab'>
-                                    <AbModule skill='Switches' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                    
-                                    <AbModule skill='Routers' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
+                                    <AbModule skill='Cisco Switches' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                    
+                                    <AbModule skill='Cisco Routers' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
                                     <AbModule skill='Network programming' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                     
                                     <AbModule skill='Ethernet' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
                                 </ul>
@@ -88,7 +88,7 @@ export default class Abilities extends React.Component {
                                 <ul className='ul-ab'>   
                                     <AbModule skill='Unity3D' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
                                     <AbModule skill='Blender' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                    
-                                    <AbModule skill='MS Office' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                                    <AbModule skill='MS Office' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
                                     <AbModule skill='GitHub' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
                                     <AbModule skill='FireFox' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
                                     <AbModule skill='Crhome' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
@@ -96,14 +96,14 @@ export default class Abilities extends React.Component {
                             </Col>
                             <Col xs="6">
                                 <ul  className='ul-ab'>
-                                    <AbModule skill='Adobe Photoshop' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                    
-                                    <AbModule skill='Adobe Premier Pro' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
+                                    <AbModule skill='Adobe Photoshop' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>   
+                                    <AbModule skill='Adobe Illustrator' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                 
+                                    <AbModule skill='Adobe Premier Pro' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>                                   
                                     <AbModule skill='Visual Studio Code' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>  
-                                    <AbModule skill='NetBeans' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>         
-                                    <AbModule skill='Windows' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>                                
-                                    <AbModule skill='Android Studio' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
+                                    <AbModule skill='Windows' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
+                                    <AbModule skill='Linux' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                
+                                    <AbModule skill='Android Studio' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>   
                                     
-
                                 </ul>
                             </Col>
                         </Row>

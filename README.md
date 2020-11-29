@@ -39,6 +39,9 @@ This project features the following tools:
 2. Move to the appropriate directory: `cd Personal_WebPage`.<br />
 3. Run `npm install` to install dependencies.<br />
 
+## Run app and deploy
+1. Run `npm start`
+2. Run `npm run-script build`
 ## Credits and References
 Teacher/Instructor: Dennis Moritz Aldana.
 

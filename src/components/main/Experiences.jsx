@@ -12,6 +12,7 @@ const gears = require('../../images/Icons/gears.png');
 const code = require('../../images/Icons/code.png');
 const music = require('../../images/Icons/music.png');
 const circuit = require('../../images/Icons/circuit.png');
+const cloud= require('../../images/Icons/cloud.png');
 
 export default class Experiences extends React.Component {
     /*constructor(props) {
@@ -34,7 +35,7 @@ export default class Experiences extends React.Component {
                                 Description="I spent almost 10 years in this lovely school when I was a child. 
                                 I remember I used to love Natural Science classes about the human body and cells. 
                                 I will always remember going to the musical appreciation class
-                                where my teacher played funny piano songs for all the class."
+                                where my teacher played funny piano songs for all of her students."
                                 src={school}>                        
                             </ModExp>
                         </Flip>    
@@ -70,9 +71,9 @@ export default class Experiences extends React.Component {
                                 Description="I studied here for more than 4 years and I learned about the essential 
                                 concepts of music theory and harmony. I learned to play the piano as well and
                                 participated in several recitals."
-                                src={music}>                        
+                                src={music}>
                             </ModExp>
-                        </Flip>    
+                        </Flip>
                         <div className='div-line'></div>
                         <div><h4 className='edu-exp'>Work Experience</h4></div>  
                         <LightSpeed left>
@@ -85,6 +86,18 @@ export default class Experiences extends React.Component {
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it is to have a full time job."
                                 src={gears}>                        
+                            </ModExp>
+                        </LightSpeed> 
+                        <LightSpeed left>
+                            <ModExp 
+                                Name='CELERA' 
+                                Date='Jul 2020 - Nov 2020' 
+                                Acknowledgment='Part Time - Cloud Engineer' 
+                                Description="CELERA is the name of a startup enterprise dedicated to promote  
+                                digital solutions related to Digital Signature Services in Guatemala. I was in charge 
+                                of centralize AWS Services on a testing web site and I also spent time interacting with 
+                                some AWS Services such as lambda, S3, EC2, IAM and more."
+                                src={cloud}>                        
                             </ModExp>
                         </LightSpeed>                      
                     </div>

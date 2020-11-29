@@ -18,10 +18,10 @@ export default class Footer extends React.Component {
                             <div className='div-quote-in-ft'>
                                 <Pulse>
                                     <p className='p-quote-ft'>
-                                        "Life is sweeter if you have a smile on your face."
+                                        "Just smile! Things are better that way!"
                                     </p>
                                     <p className='p-quote-ref'>
-                                        - Diego Sevilla, 2019
+                                        - Diego Sevilla, 2020
                                     </p>
                                 </Pulse>
                             </div>
