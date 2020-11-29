@@ -4,7 +4,7 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    //padding: 0;
+    /*padding: 0;*/
 }
 
 .red {
@@ -21,7 +21,7 @@ body {
     background-color: rgb(29, 28, 28);   
     width: 100%;
     height: 100%;
-    //margin: 0%;
+    /*margin: 0%;*/
 }
 /*
 main{
@@ -39,7 +39,7 @@ main{
 }
 
 
-//Thinking Cloud ---------------------------------------------------------
+/*Thinking Cloud ---------------------------------------------------------*/
 .divv1-cloud{
     height: 41em;
 
@@ -104,4 +104,36 @@ main{
     margin-bottom: 0;
     margin-top:7%;
 }
-// ----------------------------------------------------------------
+/* ----------------------------------------------------------------*/
+
+/*Hobbies ----------------------------------------------------------*/
+.div1-hobbies{
+    height: 35em;
+}
+
+
+.divv2-center-hobbies{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    height: 25%;
+    width: 20%;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 75%;
+    transition-duration: 0.5s;
+}
+
+.p-hobbies{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 5%;
+    margin-top: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*//---------------------------------------------------------------*/
+

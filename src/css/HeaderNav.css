@@ -1,9 +1,9 @@
 
 .header-nav{
     position: relative;
-    //display: none;
+    /*display: none;*/
     width: 100%;
-    //border-bottom: 1px solid #777a7b;
+    /*border-bottom: 1px solid #777a7b;*/
     z-index: 997;
     text-align: center;
     padding: 14px 0;    
@@ -13,9 +13,9 @@
 .header-nav-in{
     display: inline-block;
     padding: 0 20px;
-    //border-left: 1px solid white;
+    /*border-left: 1px solid white;*/
 }
-.header-nav-in:first-child { //this is to get rid of the first "|" in:  ELECTRIC GUITARS | BASSES | etc...
+.header-nav-in:first-child { /*this is to get rid of the first "|" in:  ELECTRIC GUITARS | BASSES | etc...*/
     border:none
 }
 
@@ -26,13 +26,14 @@
     line-height:1;
     color:#fff;
     font-style: bold;
-    //color: rgba(47, 45, 48, 1);
-    text-decoration: none; //remove underline from hyperlink
+    /*color: rgba(47, 45, 48, 1);*/
+    text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 .is-not-active {
-    //display: block;
+    /*display: block;*/
     display: none
 }
 

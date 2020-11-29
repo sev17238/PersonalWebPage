@@ -2,13 +2,15 @@
     ./src/components/Container.jsx
 */
 import React from 'react';
-import '../css/global';
-import { Parallax, Background } from 'react-parallax';
+import '../css/global.css';
+import { Parallax} from 'react-parallax';
 import Header from './header/Header';
 import AboutMe from './main/AboutMe';
 import Quote from './main/Quote';
 import Experiences from './main/Experiences';
 import Abilities from './main/Abilities';
+import Projects from './main/Projects';
+import Footer from './Footer';
 //import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
 import Zoom from 'react-reveal/Zoom';
 //import classnames from 'classnames';
@@ -75,7 +77,7 @@ export default class Container extends React.Component {
                 <Parallax
                     blur={0}
                     bgImage={require('../images/skyme.JPG')}
-                    bgImageAlt="Skeme"
+                    bgImageAlt="Skyme"
                     strength={200}
                 >
                     <Zoom>
@@ -93,45 +95,38 @@ export default class Container extends React.Component {
                 </Parallax>
                 <main>
                     <AboutMe/>
-                    <Quote/>
+                    <Quote quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
                     <Experiences/>
                     <Abilities/>
-                </main>
-                
+                    <Projects/>
+                    <Parallax
+                        blur={0}
+                        bgImage={require('../images/piano-guitar_purple.jpg')}
+                        bgImageAlt="Hobbies"
+                        strength={300}
+                    >
+                        <Zoom>
+                            <div className='div1-hobbies'>
+                                <Zoom>
+                                    <div id='hobbies' className='div2-center-hobbies'>                                
+                                        <p className="p-hobbies">HOBBIES!!!</p>                                                       
+                                    </div> 
+                                </Zoom>                      
+                            </div>
+                        </Zoom>
+                        <Parallax
+                            blur={0}
+                            bgImage={require('../images/crowd2.png')}
+                            bgImageAlt="crowd"
+                            strength={100}
+                        
+                        >
+                            <div style={{height: '20em'}}></div>
 
-                <Parallax
-                    blur={{ min: -15, max: 15 }}
-                    bgImage={require('../images/skyme.JPG')}
-                    bgImageAlt="the dog"
-                    strength={-200}
-                >
-                    Blur transition from min to max
-                    <div style={{ height: '200px' }} />
-                </Parallax>
-                <Parallax strength={300}>
-                    <div>Use the background component for custom elements</div>
-                    <Background className="custom-bg">
-                        <img src="http://www.fillmurray.com/500/320" alt="fill murray" />
-                    </Background>
-                </Parallax>
-                <Parallax
-                    bgImage={'../images/skyme.JPG'}
-                    strength={400}
-                    renderLayer={percentage => (
-                        <div
-                            style={{
-                                position: 'absolute',
-                                background: `rgba(255, 125, 0, ${percentage * 1})`,
-                                left: '50%',
-                                top: '50%',
-                                width: percentage * 500,
-                                height: percentage * 5000,
-                            }}
-                        />
-                    )}
-                >
-                    <p>... Content</p>
-                </Parallax>
+                        </Parallax>
+                    </Parallax>
+                </main>
+                <Footer/>
             </div>
         );
     }

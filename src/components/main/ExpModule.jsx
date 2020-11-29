@@ -2,10 +2,10 @@
     ./src/components/main/ExpModule.jsx
 */
 import React from 'react';
-import '../../css/Experiences';
+import '../../css/Experiences.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 
-export default class Experiences extends React.Component {
+export default class ExpModule extends React.Component {
     constructor(props){
         super(props)
         this.Name = props.Name;

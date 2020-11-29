@@ -27,6 +27,7 @@ This project is part of 'Technologies and Web Systems' course from Universidad d
 This project features the following tools:
 
 - ⚛ **React** — 16.9.0
+- ⚛ **react-reveal** — 16.9.0
 - 🛠 **Babel** — ES6 syntax, React/Recommended config
 - 🚀 **Webpack**  — 4.40.2 - Work in a modular approach
 - 💅 **SASS** — Styled Components
@@ -38,6 +39,9 @@ This project features the following tools:
 2. Move to the appropriate directory: `cd Personal_WebPage`.<br />
 3. Run `npm install` to install dependencies.<br />
 
+## Run app and deploy
+1. Run `npm start`
+2. Run `npm run-script build`
 ## Credits and References
 Teacher/Instructor: Dennis Moritz Aldana.
 

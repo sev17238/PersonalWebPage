@@ -2,7 +2,7 @@
     ./src/components/header/HeaderNav.jsx
 */
 import React from 'react';
-import '../../css/HeaderNav';
+import '../../css/HeaderNav.css';
 
 export default class HeaderNav extends React.Component {
     render() {
@@ -18,10 +18,13 @@ export default class HeaderNav extends React.Component {
                     <a className='anchorHover' href="#abilities">Abilities</a>
                 </li>
                 <li className='header-nav-in'>
-                    <a className='anchorHover' href="#">Hobbies</a>
+                    <a className='anchorHover' href="#projects">Projects</a>
                 </li>
                 <li className='header-nav-in'>
-                    <a className='anchorHover' href="#">Contact</a>
+                    <a className='anchorHover' href="#hobbies">Hobbies</a>
+                </li>
+                <li className='header-nav-in'>
+                    <a className='anchorHover' href="#contact">Contact</a>
                 </li>
             </ul>   
         );
