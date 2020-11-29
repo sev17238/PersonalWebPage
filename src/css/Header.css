@@ -11,7 +11,9 @@
 }
 
 .bgColor{
-    background-color: rgba(245, 245, 245, 0.85);
+    /*background-color: rgba(245, 245, 245, 0.85);*/
+    top:-100px;
+    transition-duration: 0.5s;
 }
 
 .is-not-active {
@@ -33,7 +35,7 @@
     //background-color:rgba(255, 255, 255, 0.5);*/
     color:#fff;
     z-index:999;
-    transition:.4s
+    transition-duration:.4s;
 }
 
 .idx .header-content {
