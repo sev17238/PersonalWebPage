@@ -3,7 +3,7 @@
 */
 import React from 'react';
 import HeaderNav from './HeaderNav';
-import '../../css/Header';
+import '../../css/Header.css';
 //import '../../css/global';
 
 export default class Header extends React.Component {
@@ -20,7 +20,7 @@ export default class Header extends React.Component {
                     <div className='header-content-left'>
                         <div className='header-content-left-in'> 
                             <div className="DS-div">
-                                <p>DS</p>
+                                <p><a href="#">DS</a></p>
                             </div>                            
                         </div> 
                     </div>

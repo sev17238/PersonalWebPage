@@ -1,8 +1,8 @@
 
 .div1-am{
-    //height: 31em;
+    /*height: 31em;*/
     width: 100%;
-    //background-color: rgba(208, 204, 208, 1);
+    /*background-color: rgba(208, 204, 208, 1);*/
     background-color: rgb(25, 24, 26);
 }
 
@@ -15,7 +15,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     color: whitesmoke;
-    //padding: 5%;
+    /*padding: 5%;*/
     padding-top: 25%;
     margin: 0%;
     text-align: justify;
@@ -42,7 +42,7 @@
     padding-top: 0.5em;
     margin-left: 2.5em;
     color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid rgb(44, 43, 46);
 }
 
 .div-image{
@@ -56,20 +56,20 @@
     width: 90%;
     border-radius: 100%;
     border: 10px solid rgba(47, 45, 48, 0.85);
-    //align-content: center;
+    /*align-content: center;*/
 }
 
 .column-center{
     margin: 1em;
     margin-bottom: 2em;
     margin-top: 2em;
-    //border-right: 3px solid whitesmoke;
-    //align-content: center;
+    /*border-right: 3px solid whitesmoke;
+    //align-content: center;*/
 }
 .column-right{
     margin: 1em;
     padding-right: 0%;
-    //margin-right: 0%;
+    /*margin-right: 0%;*/
 }
 .column-left{
     margin: 1em;
@@ -97,13 +97,13 @@
 }
 
 .anchor-am{
-    text-decoration: none; //remove underline from hyperlink
+    text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
     color:rgb(124, 179, 190);
 }
 
 .anchor-am:hover{
-    text-decoration: none; //remove underline from hyperlink
+    text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
     color:rgba(147, 183, 190, 0.85);
 }

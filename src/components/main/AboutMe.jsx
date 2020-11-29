@@ -2,7 +2,7 @@
     ./src/components/main/AboutMe
 */
 import React from 'react';
-import '../../css/AboutMe';
+import '../../css/AboutMe.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 import Slide from 'react-reveal/Slide';
@@ -34,7 +34,7 @@ export default class AboutMe extends React.Component {
                                     <h4 className='h4-am'>Name: </h4>
                                     <p className='p-am'>Diego Sevilla </p>
                                     <h4 className='h4-am'>Age: </h4>
-                                    <p className='p-am'>22 </p>
+                                    <p className='p-am'>23 </p>
                                     <h4 className='h4-am'>Location: </h4>
                                     <p className='p-am'>Guatemala City, Guatemala </p>
                                 </div>

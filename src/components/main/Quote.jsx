@@ -2,15 +2,15 @@
     ./src/components/Experiences.jsx
 */
 import React from 'react';
-import '../../css/Quote';
+import '../../css/Quote.css';
 import Pulse from 'react-reveal/Pulse';
 
 export default class Experiences extends React.Component {
-    /*constructor(props) {
+    constructor(props) {
         super(props);
-        this.className = props.className;
-    }*/
-
+        this.quote = props.quote;
+        this.author = props.author;
+    }
 
     render() {
         return (
@@ -19,10 +19,10 @@ export default class Experiences extends React.Component {
                     <div className='div-quote-in'>
                         <Pulse>
                             <p className='p-quote'>
-                                "Talent is just a myth, you only need practice."
+                                {this.quote}
                             </p>
                             <p className='p-quote-ref'>
-                                - Diego Sevilla, 2019
+                                {this.author}
                             </p>
                         </Pulse>
                     </div>

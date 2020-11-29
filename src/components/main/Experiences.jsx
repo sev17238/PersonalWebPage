@@ -2,7 +2,7 @@
     ./src/components/main/Experiences.jsx
 */
 import React from 'react';
-import '../../css/Experiences';
+import '../../css/Experiences.css';
 import ModExp from './ExpModule';
 import Flip from 'react-reveal/Flip';
 import LightSpeed from 'react-reveal/LightSpeed';
@@ -83,7 +83,7 @@ export default class Experiences extends React.Component {
                                 Description="DACSA is a custom label printer in Guatemala city. As part of Kinal's 
                                 graduating process I had to work here for about 4 months, fixing diferent kinds of 
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
-                                experience realize how it feels to have a full time job."
+                                experience realize how it is to have a full time job."
                                 src={gears}>                        
                             </ModExp>
                         </LightSpeed>                      

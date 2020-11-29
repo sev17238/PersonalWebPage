@@ -2,8 +2,10 @@
     ./src/components/main/AbilitiesModule.jsx
 */
 import React from 'react';
-import '../../css/Abilities';
+import '../../css/Abilities.css';
 import { /*Container, */Row, Col } from 'reactstrap';
+import Roll from 'react-reveal/Roll';
+import Bounce from 'react-reveal/Bounce';
 
 export default class AbilitiesModule extends React.Component {
     constructor(props){
@@ -20,34 +22,39 @@ export default class AbilitiesModule extends React.Component {
     render() {
         return (
             <li className='li-padd'>
-                <span className='span-inline'>
-                    <p className='p-skill'>{this.skill}</p>
-                </span>
-                <span className='span-float'>
-                    <span>
-                        <i className="fa fa-bomb" style={{color: this.color1, fontSize: "24px", opacity: "0.8"}}></i>
+                <Roll left>
+                    <span className='span-inline'>
+                        <p className='p-skill'>{this.skill}</p>
                     </span>
-                    <span>
-                        <i className="fa fa-bomb" style={{color: this.color2, fontSize: "24px", opacity: "0.8"}}></i>
-                    </span>
-                    <span>
-                        <i className="fa fa-bomb" style={{color: this.color3, fontSize: "24px", opacity: "0.8"}}></i>
-                    </span>
-                    <span>
-                        <i className="fa fa-bomb" style={{color: this.color4, fontSize: "24px", opacity: "0.8"}}></i>
-                    </span>
-                    <span>
-                        <i className="fa fa-bomb" style={{color: this.color5, fontSize: "24px", opacity: "0.8"}}></i>
-                    </span>
-                    <span>
-                        <i className="fa fa-bomb" style={{color: this.color6, fontSize: "24px", opacity: "0.8"}}></i>
-                    </span>
-                </span>               
+                
+                    <span className='span-float'>
+                        <span>
+                            <i className="fa fa-rocket" style={{color: this.color1, fontSize: "24px", opacity: "0.8"}}></i>
+                        </span> 
+                        <span>
+                            <i className="fa fa-rocket" style={{color: this.color2, fontSize: "24px", opacity: "0.8"}}></i>
+                        </span>
+                        <span>
+                            <i className="fa fa-rocket" style={{color: this.color3, fontSize: "24px", opacity: "0.8"}}></i>
+                        </span>
+                        <span>
+                            <i className="fa fa-rocket" style={{color: this.color4, fontSize: "24px", opacity: "0.8"}}></i>
+                        </span>
+                        <span>
+                            <i className="fa fa-rocket" style={{color: this.color5, fontSize: "24px", opacity: "0.8"}}></i>
+                        </span>
+                        <span>
+                            <i className="fa fa-rocket" style={{color: this.color6, fontSize: "24px", opacity: "0.8"}}></i>
+                        </span>
+                    </span>       
+                </Roll>        
             </li>
         );
     }
 }
-//fa fa-gear
+//fa fa-rocket
+//fa fa-bomb
+//fa fa-cot
 //fa fa-microchip
 // 	fa fa-music
 //"font-size:48px;color:red"

@@ -27,6 +27,7 @@ This project is part of 'Technologies and Web Systems' course from Universidad d
 This project features the following tools:
 
 - ⚛ **React** — 16.9.0
+- ⚛ **react-reveal** — 16.9.0
 - 🛠 **Babel** — ES6 syntax, React/Recommended config
 - 🚀 **Webpack**  — 4.40.2 - Work in a modular approach
 - 💅 **SASS** — Styled Components
