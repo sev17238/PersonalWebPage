@@ -1,0 +1,29 @@
+
+/*Hobbies ----------------------------------------------------------*/
+.div1-hobbies{
+    height: 35em;
+}
+
+.divv2-center-hobbies{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    height: 25%;
+    width: 20%;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 75%;
+    transition-duration: 0.5s;
+}
+
+.p-hobbies{
+    font-size: 5em;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 5%;
+    margin-top: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/*//---------------------------------------------------------------*/

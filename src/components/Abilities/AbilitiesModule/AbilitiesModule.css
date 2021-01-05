@@ -1,0 +1,30 @@
+
+.p-skill{
+    font-size: 1.1em;
+    text-align: justify;
+    width: 100%;
+    margin:0%;
+    color: white;
+}
+
+.span-inline{
+    display: inline-block;
+    width: 60%;
+}
+.span-float{
+   float: right;
+   /*transition-duration: 1s;*/
+}
+
+.li-padd{
+    padding: 1%;
+    /*transition-duration: 0.5s;*/
+    background-color: rgba(147, 183, 190, 1);
+    transition-duration: 0.3s;
+}
+
+.li-padd:hover{
+    background-color: rgba(133, 163, 170, 0.89);
+    transition-duration: 0.3s;
+    transform: translateY(-3px);
+}

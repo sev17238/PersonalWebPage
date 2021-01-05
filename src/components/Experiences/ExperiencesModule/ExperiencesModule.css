@@ -1,0 +1,40 @@
+
+/*Experiences module----------------------------------------------*/
+.Fst-col{
+    margin: 1em;
+}
+
+.Snd-col{
+    margin: 1em;
+}
+
+.edu-name{
+    font-style: italic;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.edu-ack{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.p-color{
+    color: rgba(47, 45, 48, 1);
+}
+
+.p-normal{
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.row-exp{
+    padding-left: 10%;
+}
+
+.div-line{
+    height: 2em;
+    margin: 1em;
+    border-bottom: 1px solid rgb(180, 182, 168);
+}
+/*-----------------------------------------------------------------*/

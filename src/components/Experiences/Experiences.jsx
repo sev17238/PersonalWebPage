@@ -2,8 +2,8 @@
     ./src/components/main/Experiences.jsx
 */
 import React from 'react';
-import '../../css/Experiences.css';
-import ModExp from './ExpModule';
+import './Experiences.css';
+import ModExp from './ExperiencesModule/ExperiencesModule';
 import Flip from 'react-reveal/Flip';
 import LightSpeed from 'react-reveal/LightSpeed';
 
@@ -15,17 +15,13 @@ const circuit = require('../../images/Icons/circuit.png');
 const cloud= require('../../images/Icons/cloud.png');
 
 export default class Experiences extends React.Component {
-    /*constructor(props) {
-        super(props);
-        this.className = props.className;
-    }*/
 
     render() {
         return (
             <section>
                 <div id='experiences' className='div1-exp'>
                     <div  className='div-title-exp'><h3 className='title-exp'>Experiences</h3></div>
-                    <div className='div2-exp'>                       
+                    <div className='div2-exp'>
                         <div ><h4 className='edu-exp'>Education</h4></div>
                         <Flip bottom>
                             <ModExp 
@@ -36,7 +32,7 @@ export default class Experiences extends React.Component {
                                 I remember I used to love Natural Science classes about the human body and cells. 
                                 I will always remember going to the musical appreciation class
                                 where my teacher played funny piano songs for all of her students."
-                                src={school}>                        
+                                src={school}>
                             </ModExp>
                         </Flip>    
                         <Flip bottom>
@@ -48,7 +44,7 @@ export default class Experiences extends React.Component {
                                 work and trained students. I studied here for 3 years and I learned about electronics, mechanics and
                                 basic programing. In my third year of school I realized that I wanted to know more about software 
                                 and programming."
-                                src={circuit}>                        
+                                src={circuit}>
                             </ModExp>
                         </Flip>   
                         <Flip bottom>
@@ -60,7 +56,7 @@ export default class Experiences extends React.Component {
                                 the way of learning has a combination of different approaches as User Experience, 
                                 Security, long term maintenance and more. I have learned about JAVA, Python, C#, SQL, 
                                 Javascript, Web Technologies and to use lots of useful tools to get along well with all this stuff."
-                                src={code}>                        
+                                src={code}>
                             </ModExp>
                         </Flip>    
                         <Flip bottom>
@@ -85,7 +81,7 @@ export default class Experiences extends React.Component {
                                 graduating process I had to work here for about 4 months, fixing diferent kinds of 
                                 electronic devices as electronic balances, sealers, labellers and more. It was a good 
                                 experience realize how it is to have a full time job."
-                                src={gears}>                        
+                                src={gears}>
                             </ModExp>
                         </LightSpeed> 
                         <LightSpeed left>
@@ -97,19 +93,12 @@ export default class Experiences extends React.Component {
                                 digital solutions related to Digital Signature Services in Guatemala. I was in charge 
                                 of centralize AWS Services on a testing web site and I also spent time interacting with 
                                 some AWS Services such as lambda, S3, EC2, IAM and more."
-                                src={cloud}>                        
+                                src={cloud}>
                             </ModExp>
-                        </LightSpeed>                      
+                        </LightSpeed>
                     </div>
                 </div>
             </section>
-
         );
     }
 }
-
-/*
-Later on, I got interested in popular music
-                                and leaned guitar by my own with online lessons. Now I´m perfeccionating my guitar skills and 
-                                also my singing skills.
-*/

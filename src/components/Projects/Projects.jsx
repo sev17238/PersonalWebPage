@@ -2,7 +2,7 @@
     ./src/components/main/Projects.jsx
 */
 import React from 'react';
-import '../../css/Projects.css';
+import './Projects.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 import {
     Card, CardImg, CardText, CardBody,
@@ -14,7 +14,6 @@ const ukron = require('../../images/ukron.PNG')
 const undercooked = require('../../images/UnderCooked_.png')
 const ibanez = require('../../images/ibanez.PNG')
 const software = require('../../images/ukron.PNG')
-
 
 export default class Projects extends React.Component {
 
@@ -70,10 +69,7 @@ export default class Projects extends React.Component {
                                         <Button href='https://diego-sevilla.itch.io/ukron'>See Project</Button>
                                         </CardBody>
                                     </Card> 
-                                </Fade>                                                
-                            </Col>
-                            <Col xs="5" className='Snd-col'>
-                                
+                                </Fade>
                             </Col>
                         </Row>
                     </div>

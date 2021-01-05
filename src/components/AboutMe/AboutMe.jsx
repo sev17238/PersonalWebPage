@@ -2,7 +2,7 @@
     ./src/components/main/AboutMe
 */
 import React from 'react';
-import '../../css/AboutMe.css';
+import './AboutMe.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 import Slide from 'react-reveal/Slide';
@@ -11,17 +11,6 @@ import Zoom from 'react-reveal/Zoom';
 const Me = require('../../images/MePiano.jpeg');
 
 export default class AboutMe extends React.Component {
-    constructor() {
-        super();
-        this.state = { show: false };
-    }
-    
-    componentDidMount() {
-        setTimeout(() => {
-          this.setState({ show: true });
-        }, 1000);
-    }
-
     render() {
         return (
             <section>

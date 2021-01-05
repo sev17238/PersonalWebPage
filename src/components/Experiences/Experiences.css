@@ -23,7 +23,6 @@
 
 .title-exp{
     width: 80%;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
@@ -37,7 +36,6 @@
 
 .edu-exp{
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     font-weight: bold;
     text-align: left;
@@ -47,46 +45,3 @@
     //margin-left: 2.5em;*/
     color: rgb(2, 49, 107);
 }
-
-//Experiences module----------------------------------------------
-.Fst-col{
-    margin: 1em;
-}
-
-.Snd-col{
-    margin: 1em;
-}
-
-.edu-name{
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-size: 1.25em;
-    font-weight: bold;
-}
-
-.edu-ack{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.1em;
-    font-weight: bold;
-}
-
-.p-color{
-    color: rgba(47, 45, 48, 1);
-}
-
-.p-normal{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.1em;
-    text-align: justify;
-}
-
-.row-exp{
-    padding-left: 10%;
-}
-
-.div-line{
-    height: 2em;
-    margin: 1em;
-    border-bottom: 1px solid rgb(180, 182, 168);
-}
-/*-----------------------------------------------------------------*/

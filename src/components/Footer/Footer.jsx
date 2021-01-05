@@ -2,10 +2,8 @@
     ./client/components/Footer.jsx
 */
 import React from 'react';
-import '../css/Footer.css';
-import '../css/global.css';
+import './Footer.css';
 import Pulse from 'react-reveal/Pulse';
-//const logo = require('../images/logo.png');
 
 export default class Footer extends React.Component {
     render() {
@@ -25,8 +23,8 @@ export default class Footer extends React.Component {
                                     </p>
                                 </Pulse>
                             </div>
-                        </div>     
-                        <p className='get-in-touch'>Get in touch with me!</p>                        
+                        </div>
+                        <p className='get-in-touch'>Get in touch with me!</p>
                         <ul className='footer-links'>
                             <li className='footer-links-in'>
                                 <span>
@@ -41,21 +39,13 @@ export default class Footer extends React.Component {
                                         <i className="fas fa-at" style={{color: "whitesmoke", fontSize: "48px", opacity: "0.8"}}></i>
                                         sevilla.diego8@gmail.com  
                                     </a>   
-                                                                
                                 </span> 
                             </li>
-                        </ul>                       
+                        </ul>
                     </div>   
-                    <div className='div-line-footer'></div>                 
-                </div>                
+                    <div className='div-line-footer'></div>
+                </div>
             </footer>
         );
     }
 }
-
-/* <a href="#" className='footer-logo'>
-                        <img src={logo} alt="logo" className='width-u-100 ibanez-logo'/>
-                    </a> */
-
-                    //<i className='fab fa-linkedin' style='font-size:48px;color:whitesmoke'></i>
-                    //<i className='fab fa-facebook' style='font-size:48px;color:whitesmoke'></i>

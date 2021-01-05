@@ -2,8 +2,9 @@
     ./src/components/main/ExpModule.jsx
 */
 import React from 'react';
-import '../../css/Experiences.css';
+import './ExperiencesModule.css';
 import { /*Container, */Row, Col } from 'reactstrap';
+import Aux from '../../../hoc/Auxiliary/Auxiliary';
 
 export default class ExpModule extends React.Component {
     constructor(props){
@@ -13,11 +14,11 @@ export default class ExpModule extends React.Component {
         this.Acknowledgment = props.Acknowledgment;
         this.Description = props.Description;
         this.src = props.src;
-    }                    
+    }
 
     render() {
         return (
-            <section>
+            <Aux>
                 <div  className='div1-modexp'>
                     <Row className='row-exp'>
                         <Col xs="4" className='Fst-col'>
@@ -25,7 +26,7 @@ export default class ExpModule extends React.Component {
                             <p className='p-normal p-color'>{this.Date}</p>
                             <div className='div-image-exp'>
                                 <img className='image-exp' src={this.src} alt='img'></img>  
-                            </div>                             
+                            </div>
                         </Col>
                         <Col xs="6" className='Snd-col'>
                             <p className='edu-ack p-color'>{this.Acknowledgment}</p>
@@ -33,8 +34,7 @@ export default class ExpModule extends React.Component {
                         </Col>
                     </Row>
                 </div>
-            </section>
-
+            </Aux>
         );
     }
 }

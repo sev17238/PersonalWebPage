@@ -2,11 +2,8 @@
     ./src/components/main/AbilitiesModule.jsx
 */
 import React from 'react';
-import '../../css/Abilities.css';
-import { /*Container, */Row, Col } from 'reactstrap';
+import './AbilitiesModule.css';
 import Roll from 'react-reveal/Roll';
-import Bounce from 'react-reveal/Bounce';
-
 export default class AbilitiesModule extends React.Component {
     constructor(props){
         super(props)
@@ -17,7 +14,7 @@ export default class AbilitiesModule extends React.Component {
         this.color4 = props.color4;
         this.color5 = props.color5;
         this.color6 = props.color6;
-    }                    
+    }
 
     render() {
         return (
@@ -26,11 +23,10 @@ export default class AbilitiesModule extends React.Component {
                     <span className='span-inline'>
                         <p className='p-skill'>{this.skill}</p>
                     </span>
-                
                     <span className='span-float'>
                         <span>
                             <i className="fa fa-rocket" style={{color: this.color1, fontSize: "24px", opacity: "0.8"}}></i>
-                        </span> 
+                        </span>
                         <span>
                             <i className="fa fa-rocket" style={{color: this.color2, fontSize: "24px", opacity: "0.8"}}></i>
                         </span>
@@ -46,8 +42,8 @@ export default class AbilitiesModule extends React.Component {
                         <span>
                             <i className="fa fa-rocket" style={{color: this.color6, fontSize: "24px", opacity: "0.8"}}></i>
                         </span>
-                    </span>       
-                </Roll>        
+                    </span>
+                </Roll>
             </li>
         );
     }

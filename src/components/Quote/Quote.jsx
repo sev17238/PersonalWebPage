@@ -2,7 +2,7 @@
     ./src/components/Experiences.jsx
 */
 import React from 'react';
-import '../../css/Quote.css';
+import './Quote.css';
 import Pulse from 'react-reveal/Pulse';
 
 export default class Experiences extends React.Component {
@@ -14,7 +14,7 @@ export default class Experiences extends React.Component {
 
     render() {
         return (
-            <section>                
+            <section>
                 <div className='div-quote'>
                     <div className='div-quote-in'>
                         <Pulse>
@@ -26,9 +26,8 @@ export default class Experiences extends React.Component {
                             </p>
                         </Pulse>
                     </div>
-                </div>                
+                </div>
             </section>
-
         );
     }
 }

@@ -23,7 +23,6 @@
 
 .title-pro{
     width: 80%;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
@@ -36,18 +35,15 @@
 }
 
 .card-title{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 .card-subtitle{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.1em;
     font-style: italic;
 }
 .card-text{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 0.9em;
     text-align: justify;
     
