@@ -13,9 +13,7 @@ import Hobbies from '../components/Hobbies/Hobbies';
 
 import Aux from '../hoc/Auxiliary/Auxiliary';
 
-
 class Container extends Component {
-
     render() {
         return (
             <Aux>

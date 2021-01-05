@@ -14,7 +14,7 @@ export default class Experiences extends React.Component {
 
     render() {
         return (
-            <section>                
+            <section>
                 <div className='div-quote'>
                     <div className='div-quote-in'>
                         <Pulse>
@@ -26,9 +26,8 @@ export default class Experiences extends React.Component {
                             </p>
                         </Pulse>
                     </div>
-                </div>                
+                </div>
             </section>
-
         );
     }
 }

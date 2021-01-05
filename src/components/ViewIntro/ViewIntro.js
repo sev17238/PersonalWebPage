@@ -3,7 +3,6 @@ import './Viewintro.css';
 import { Parallax} from 'react-parallax';
 import Zoom from 'react-reveal/Zoom';
 
-
 const viewIntro = (props) =>{
 
     return(

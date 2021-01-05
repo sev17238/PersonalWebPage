@@ -4,21 +4,16 @@
 import React from 'react';
 import './Abilities.css';
 import AbModule from './AbilitiesModule/AbilitiesModule';
-import { /*Container, */Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 export default class Abilities extends React.Component {
-    /*constructor(props) {
-        super(props);
-        this.className = props.className;
-    }*/
-
 
     render() {
         return (
             <section>
                 <div id='abilities' className='div1-ab'>
                     <div  className='div-title-ab'><h3 className='title-ab'>Abilities</h3></div>
-                    <div className='div2-ab'>   
+                    <div className='div2-ab'>
                         <div ><h4 className='subtitle-ab'>Software</h4></div>
                         <Row className='row-ab'>
                             <Col xs="6" className='col-ab'>
@@ -31,7 +26,7 @@ export default class Abilities extends React.Component {
                                     <AbModule skill='Javacript' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                                     <AbModule skill='SASS/SCSS' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                                     <AbModule skill='C++' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                                </ul>                                
+                                </ul>
                             </Col>
                             <Col xs="6">
                                 <ul  className='ul-ab'>
@@ -56,7 +51,7 @@ export default class Abilities extends React.Component {
                                     <AbModule skill='PIC' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                                     <AbModule skill='Arduino' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/> 
                                     <AbModule skill='RaspBerry Pi 3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/> 
-                                </ul>                                
+                                </ul>
                             </Col>
                             <Col xs="6">
                                 <ul  className='ul-ab'>
@@ -73,7 +68,7 @@ export default class Abilities extends React.Component {
                             <Col xs="6" className='col-ab'>
                                 <ul className='ul-ab'>   
                                     <AbModule skill='Spanish' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                   
-                                </ul>                                
+                                </ul>
                             </Col>
                             <Col xs="6">
                                 <ul  className='ul-ab'>
@@ -92,7 +87,7 @@ export default class Abilities extends React.Component {
                                     <AbModule skill='GitHub' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
                                     <AbModule skill='FireFox' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
                                     <AbModule skill='Crhome' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
-                                </ul>                                
+                                </ul>
                             </Col>
                             <Col xs="6">
                                 <ul  className='ul-ab'>
@@ -102,17 +97,13 @@ export default class Abilities extends React.Component {
                                     <AbModule skill='Visual Studio Code' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>  
                                     <AbModule skill='Windows' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
                                     <AbModule skill='Linux' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                
-                                    <AbModule skill='Android Studio' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>   
-            
+                                    <AbModule skill='Android Studio' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/> 
                                 </ul>
                             </Col>
                         </Row>
-                    </div>               
+                    </div>
                 </div>
-                
-
             </section>
-
         );
     }
 }

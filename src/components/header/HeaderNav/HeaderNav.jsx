@@ -6,7 +6,7 @@ import './HeaderNav.css';
 
 export default class HeaderNav extends React.Component {
     render() {
-        return (            
+        return (
             <ul id='headernav' className='header-nav'>
                 <li className='header-nav-in'>
                     <a className='anchorHover' href="#about_me">About Me</a>
@@ -26,7 +26,7 @@ export default class HeaderNav extends React.Component {
                 <li className='header-nav-in'>
                     <a className='anchorHover' href="#contact">Contact</a>
                 </li>
-            </ul>   
+            </ul>
         );
     }
 }

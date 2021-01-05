@@ -14,7 +14,7 @@ export default class ExpModule extends React.Component {
         this.Acknowledgment = props.Acknowledgment;
         this.Description = props.Description;
         this.src = props.src;
-    }                    
+    }
 
     render() {
         return (
@@ -26,7 +26,7 @@ export default class ExpModule extends React.Component {
                             <p className='p-normal p-color'>{this.Date}</p>
                             <div className='div-image-exp'>
                                 <img className='image-exp' src={this.src} alt='img'></img>  
-                            </div>                             
+                            </div>
                         </Col>
                         <Col xs="6" className='Snd-col'>
                             <p className='edu-ack p-color'>{this.Acknowledgment}</p>
@@ -35,7 +35,6 @@ export default class ExpModule extends React.Component {
                     </Row>
                 </div>
             </Aux>
-
         );
     }
 }

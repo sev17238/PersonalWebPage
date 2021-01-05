@@ -15,7 +15,6 @@ const undercooked = require('../../images/UnderCooked_.png')
 const ibanez = require('../../images/ibanez.PNG')
 const software = require('../../images/ukron.PNG')
 
-
 export default class Projects extends React.Component {
 
     render() {
@@ -70,10 +69,7 @@ export default class Projects extends React.Component {
                                         <Button href='https://diego-sevilla.itch.io/ukron'>See Project</Button>
                                         </CardBody>
                                     </Card> 
-                                </Fade>                                                
-                            </Col>
-                            <Col xs="5" className='Snd-col'>
-                                
+                                </Fade>
                             </Col>
                         </Row>
                     </div>
