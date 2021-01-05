@@ -11,9 +11,10 @@ import Experiences from '../components/Experiences/Experiences';
 import Abilities from '../components/Abilities/Abilities';
 import Projects from '../components/Projects/Projects';
 import Footer from '../components/Footer/Footer';
-//import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
 import Zoom from 'react-reveal/Zoom';
-//import classnames from 'classnames';
+
+import Aux from '../hoc/Auxiliary/Auxiliary';
+
 
 export default class Container extends React.Component {
     constructor(props) {
@@ -44,7 +45,7 @@ export default class Container extends React.Component {
     render() { /*<h2>Scroll {this.state.isTop ? 'down' : 'up'}!</h2> */
         window.addEventListener('scroll', this.handleScroll);
         return (
-            <div>
+            <Aux>
                 <Header/>
                 <Parallax
                     blur={0}
@@ -65,41 +66,41 @@ export default class Container extends React.Component {
                         </div>
                     </Zoom>
                 </Parallax>
-                <main>
-                    <AboutMe/>
-                    <Quote quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
-                    <Experiences/>
-                    <Abilities/>
-                    <Projects/>
+                {/*main */}
+                <AboutMe/>
+                <Quote quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
+                <Experiences/>
+                <Abilities/>
+                <Projects/>
+                <Parallax
+                    blur={0}
+                    bgImage={require('../images/piano-guitar_purple.jpg')}
+                    bgImageAlt="Hobbies"
+                    strength={300}
+                >
+                    <Zoom>
+                        <div className='div1-hobbies'>
+                            <Zoom>
+                                <div id='hobbies' className='div2-center-hobbies'>                                
+                                    <p className="p-hobbies">HOBBIES!!!</p>                                                       
+                                </div> 
+                            </Zoom>                      
+                        </div>
+                    </Zoom>
                     <Parallax
                         blur={0}
-                        bgImage={require('../images/piano-guitar_purple.jpg')}
-                        bgImageAlt="Hobbies"
-                        strength={300}
+                        bgImage={require('../images/crowd2.png')}
+                        bgImageAlt="crowd"
+                        strength={100}
+                    
                     >
-                        <Zoom>
-                            <div className='div1-hobbies'>
-                                <Zoom>
-                                    <div id='hobbies' className='div2-center-hobbies'>                                
-                                        <p className="p-hobbies">HOBBIES!!!</p>                                                       
-                                    </div> 
-                                </Zoom>                      
-                            </div>
-                        </Zoom>
-                        <Parallax
-                            blur={0}
-                            bgImage={require('../images/crowd2.png')}
-                            bgImageAlt="crowd"
-                            strength={100}
-                        
-                        >
-                            <div style={{height: '20em'}}></div>
+                        <div style={{height: '20em'}}></div>
 
-                        </Parallax>
                     </Parallax>
-                </main>
+                </Parallax>
+                {/*main */}
                 <Footer/>
-            </div>
+            </Aux>
         );
     }
 }

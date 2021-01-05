@@ -4,6 +4,7 @@
 import React from 'react';
 import './ExperiencesModule.css';
 import { /*Container, */Row, Col } from 'reactstrap';
+import Aux from '../../../hoc/Auxiliary/Auxiliary';
 
 export default class ExpModule extends React.Component {
     constructor(props){
@@ -17,7 +18,7 @@ export default class ExpModule extends React.Component {
 
     render() {
         return (
-            <section>
+            <Aux>
                 <div  className='div1-modexp'>
                     <Row className='row-exp'>
                         <Col xs="4" className='Fst-col'>
@@ -33,7 +34,7 @@ export default class ExpModule extends React.Component {
                         </Col>
                     </Row>
                 </div>
-            </section>
+            </Aux>
 
         );
     }
