@@ -2,7 +2,7 @@
     ./src/components/Experiences.jsx
 */
 import React from 'react';
-import '../../css/Quote.css';
+import './Quote.css';
 import Pulse from 'react-reveal/Pulse';
 
 export default class Experiences extends React.Component {

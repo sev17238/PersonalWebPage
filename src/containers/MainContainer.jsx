@@ -2,15 +2,15 @@
     ./src/components/Container.jsx
 */
 import React from 'react';
-import '../css/global.css';
+import './MainContainer.css';
 import { Parallax} from 'react-parallax';
 import Header from '../components/Header/Header';
 import AboutMe from '../components/AboutMe/AboutMe';
-import Quote from '../components/main/Quote';
+import Quote from '../components/Quote/Quote';
 import Experiences from '../components/Experiences/Experiences';
 import Abilities from '../components/Abilities/Abilities';
 import Projects from '../components/Projects/Projects';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer/Footer';
 //import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
 import Zoom from 'react-reveal/Zoom';
 //import classnames from 'classnames';
@@ -25,12 +25,6 @@ export default class Container extends React.Component {
         };*/
     }
 
-    componentDidMount() {
-        setTimeout(() => {
-          this.setState({ show: true });
-        }, 200);
-    }
-    
     handleScroll(){
         let header = document.getElementById('headercontent'); 
         //let headernav = document.getElementById('headernav');
@@ -109,17 +103,3 @@ export default class Container extends React.Component {
         );
     }
 }
-/*<div id="pagetop" className='container'>
-                <Header/>
-                <Main/>
-
-
-            </div> 
-            
-<Header className={classnames('header', {
-                    'Hide': !this.state.visible
-                })}/>
-            */
-
-            /* <ReactRevealText text="Great View!" className='NameIntro' show={this.state.show}/>     
-                            <ReactRevealText text="Isn't it?" className='Name' show={this.state.show}/>     */

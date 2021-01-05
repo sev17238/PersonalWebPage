@@ -2,8 +2,7 @@
     ./client/components/Footer.jsx
 */
 import React from 'react';
-import '../css/Footer.css';
-import '../css/global.css';
+import './Footer.css';
 import Pulse from 'react-reveal/Pulse';
 //const logo = require('../images/logo.png');
 
