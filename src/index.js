@@ -5,6 +5,6 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MainContainer from './containers/MainContainer';
+import App from './App';
 
-ReactDOM.render( <MainContainer />, document.getElementById('root'));
+ReactDOM.render( <App />, document.getElementById('root'));
