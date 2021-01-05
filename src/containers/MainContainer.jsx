@@ -4,13 +4,13 @@
 import React from 'react';
 import '../css/global.css';
 import { Parallax} from 'react-parallax';
-import Header from './header/Header';
-import AboutMe from './main/AboutMe';
-import Quote from './main/Quote';
-import Experiences from './main/Experiences';
-import Abilities from './main/Abilities';
-import Projects from './main/Projects';
-import Footer from './Footer';
+import Header from '../components/Header/Header';
+import AboutMe from '../components/main/AboutMe';
+import Quote from '../components/main/Quote';
+import Experiences from '../components/main/Experiences';
+import Abilities from '../components/Abilities/Abilities';
+import Projects from '../components/main/Projects';
+import Footer from '../components/Footer';
 //import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
 import Zoom from 'react-reveal/Zoom';
 //import classnames from 'classnames';
@@ -30,28 +30,6 @@ export default class Container extends React.Component {
           this.setState({ show: true });
         }, 200);
     }
-    /*
-    componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    }
-    
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
-    }
-    
-    handleScroll(){
-        const { prevScrollpos } = this.state;
-    
-        const currentScrollPos = window.pageYOffset;
-        const visible = prevScrollpos > currentScrollPos;
-    
-        this.setState({
-            prevScrollpos: currentScrollPos,
-            visible
-        });
-    };*/
-
-   
     
     handleScroll(){
         let header = document.getElementById('headercontent'); 

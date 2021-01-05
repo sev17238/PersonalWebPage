@@ -2,7 +2,7 @@
     ./src/components/header/HeaderNav.jsx
 */
 import React from 'react';
-import '../../css/HeaderNav.css';
+import './HeaderNav.css';
 
 export default class HeaderNav extends React.Component {
     render() {

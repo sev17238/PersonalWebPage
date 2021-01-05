@@ -2,7 +2,7 @@
     ./src/components/main/AbilitiesModule.jsx
 */
 import React from 'react';
-import '../../css/Abilities.css';
+import './AbilitiesModule.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 import Roll from 'react-reveal/Roll';
 import Bounce from 'react-reveal/Bounce';

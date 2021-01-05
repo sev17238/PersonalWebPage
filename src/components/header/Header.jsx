@@ -2,9 +2,9 @@
     ./src/components/Header.jsx
 */
 import React from 'react';
-import HeaderNav from './HeaderNav';
-import '../../css/Header.css';
-//import '../../css/global';
+import HeaderNav from './HeaderNav/HeaderNav';
+import './Header.css';
+
 
 export default class Header extends React.Component {
     /*constructor(props) {

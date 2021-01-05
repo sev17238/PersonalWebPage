@@ -52,10 +52,3 @@ export default class Footer extends React.Component {
         );
     }
 }
-
-/* <a href="#" className='footer-logo'>
-                        <img src={logo} alt="logo" className='width-u-100 ibanez-logo'/>
-                    </a> */
-
-                    //<i className='fab fa-linkedin' style='font-size:48px;color:whitesmoke'></i>
-                    //<i className='fab fa-facebook' style='font-size:48px;color:whitesmoke'></i>

@@ -2,8 +2,8 @@
     ./src/components/Experiences.jsx
 */
 import React from 'react';
-import '../../css/Abilities.css';
-import AbModule from './AbilitiesModule';
+import './Abilities.css';
+import AbModule from './AbilitiesModule/AbilitiesModule';
 import { /*Container, */Row, Col } from 'reactstrap';
 
 export default class Abilities extends React.Component {
@@ -103,7 +103,7 @@ export default class Abilities extends React.Component {
                                     <AbModule skill='Windows' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
                                     <AbModule skill='Linux' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                
                                     <AbModule skill='Android Studio' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>   
-                                    
+            
                                 </ul>
                             </Col>
                         </Row>
