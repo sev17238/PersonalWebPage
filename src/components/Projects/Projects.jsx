@@ -2,7 +2,7 @@
     ./src/components/main/Projects.jsx
 */
 import React from 'react';
-import '../../css/Projects.css';
+import './Projects.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 import {
     Card, CardImg, CardText, CardBody,

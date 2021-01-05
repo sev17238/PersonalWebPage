@@ -9,7 +9,7 @@ import AboutMe from '../components/AboutMe/AboutMe';
 import Quote from '../components/main/Quote';
 import Experiences from '../components/Experiences/Experiences';
 import Abilities from '../components/Abilities/Abilities';
-import Projects from '../components/main/Projects';
+import Projects from '../components/Projects/Projects';
 import Footer from '../components/Footer';
 //import ReactRevealText from 'react-reveal-text/lib/ReactRevealText';
 import Zoom from 'react-reveal/Zoom';
