@@ -85,7 +85,7 @@ export default class Container extends React.Component {
                             <Zoom cascade>
                                 <div className='divv2-center-cloud'>
                                     <div className='cloud1'></div>
-                                    <div className='cloud2'></div>                                  
+                                    <div className='cloud2'></div>                              
                                     <p className="NameIntro">Great View!</p>
                                     <p className="Name">Isn&lsquo;t it?</p>                                                       
                                 </div> 
