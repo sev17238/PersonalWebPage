@@ -2,8 +2,8 @@
     ./src/components/main/Experiences.jsx
 */
 import React from 'react';
-import '../../css/Experiences.css';
-import ModExp from './ExpModule';
+import './Experiences.css';
+import ModExp from './ExperiencesModule/ExperiencesModule';
 import Flip from 'react-reveal/Flip';
 import LightSpeed from 'react-reveal/LightSpeed';
 

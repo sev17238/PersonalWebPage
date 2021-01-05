@@ -2,7 +2,7 @@
     ./src/components/main/AboutMe
 */
 import React from 'react';
-import '../../css/AboutMe.css';
+import './AboutMe.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 import Slide from 'react-reveal/Slide';

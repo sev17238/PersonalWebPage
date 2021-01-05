@@ -2,7 +2,7 @@
     ./src/components/main/ExpModule.jsx
 */
 import React from 'react';
-import '../../css/Experiences.css';
+import './ExperiencesModule.css';
 import { /*Container, */Row, Col } from 'reactstrap';
 
 export default class ExpModule extends React.Component {
