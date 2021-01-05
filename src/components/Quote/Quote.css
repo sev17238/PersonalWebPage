@@ -11,7 +11,6 @@
 }
 
 .p-quote{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     color: rgba(222, 224, 208, 1);
     font-style: italic;
@@ -24,8 +23,7 @@
     cursor: pointer;
 }
 
-.p-quote-ref{
-    font-family: 'Courier New', Courier, monospace;    
+.p-quote-ref{   
     font-size: 1.5em;
     color: rgba(222, 224, 208, 1);
     text-align: center;

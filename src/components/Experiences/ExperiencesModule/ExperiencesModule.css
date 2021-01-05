@@ -9,14 +9,12 @@
 }
 
 .edu-name{
-    font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-size: 1.25em;
     font-weight: bold;
 }
 
 .edu-ack{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.1em;
     font-weight: bold;
 }
@@ -26,7 +24,6 @@
 }
 
 .p-normal{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.1em;
     text-align: justify;
 }

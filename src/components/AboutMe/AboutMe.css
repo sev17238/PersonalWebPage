@@ -7,12 +7,10 @@
 }
 
 .p-am{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     color: whitesmoke;
 }
 .p-am-des{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
     color: whitesmoke;
     /*padding: 5%;*/
@@ -22,7 +20,6 @@
 }
 
 .h4-am{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     color: whitesmoke;
 }
@@ -33,7 +30,7 @@
 
 .title-am{
     width: 80%;
-    font-family: 'Courier New', Courier, monospace;
+    
     font-size: 3em;
     font-weight: bold;
     text-align: center;

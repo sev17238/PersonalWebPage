@@ -11,17 +11,6 @@ import Zoom from 'react-reveal/Zoom';
 const Me = require('../../images/MePiano.jpeg');
 
 export default class AboutMe extends React.Component {
-    constructor() {
-        super();
-        this.state = { show: false };
-    }
-    
-    componentDidMount() {
-        setTimeout(() => {
-          this.setState({ show: true });
-        }, 1000);
-    }
-
     render() {
         return (
             <section>

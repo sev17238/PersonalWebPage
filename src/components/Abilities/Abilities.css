@@ -15,7 +15,6 @@
 
 .title-ab{
     width: 80%;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
@@ -49,7 +48,6 @@
 
 .subtitle-ab{
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     font-weight: bold;
     text-align: left;
