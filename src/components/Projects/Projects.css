@@ -1,20 +1,15 @@
 .div1-pro{
-    /*height: 31em;*/
     width: 100%;
-    /*padding-left: 7.5%;
-    //padding-right: 7.5%;
-    //background-color: rgba(208, 204, 208, 1);*/
     background-color: rgba(85, 53, 85, 1);
 }
 
+.innerDivProjects{
+    width: 85%;
+    margin: auto;
+}
+
 .div2-pro{
-    /*height: 31em;
-    //width: 100%;*/
-    padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 2.5%; 
-    /*background-color: rgba(208, 204, 208, 1);*/
-    background-color: rgba(85, 53, 85, 1);
 }
 
 .div-title-pro{
@@ -22,14 +17,13 @@
 }
 
 .title-pro{
-    width: 80%;
+    width: 100%;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
-    margin-left: 2.5em;
     color: rgba(222, 224, 208, 1);
     border-bottom: 1px solid rgb(56, 35, 56);
 }
