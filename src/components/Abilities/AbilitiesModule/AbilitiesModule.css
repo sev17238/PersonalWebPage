@@ -1,16 +1,19 @@
 
 .p-skill{
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: justify;
     width: 100%;
-    margin:0%;
+    margin:0;
+    padding:0;
     color: white;
 }
 
 .span-inline{
     display: inline-block;
-    width: 60%;
+    width: 50%;
 }
+
+
 .span-float{
    float: right;
    /*transition-duration: 1s;*/

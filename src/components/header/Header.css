@@ -12,8 +12,10 @@
 
 .bgColor{
     /*background-color: rgba(245, 245, 245, 0.85);*/
-    top:-100px;
-    transition-duration: 0.5s;
+    /*top:-100px;
+    transition-duration: 0.5s;*/
+    display: none;
+    transition-duration: 1s;
 }
 
 .is-not-active {

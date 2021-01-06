@@ -1,7 +1,11 @@
 
 /*Thinking Cloud ---------------------------------------------------------*/
+.ViewIntroSection{
+    height: 100vh;
+}
+
 .divv1-cloud{
-    height: 41em;
+    height: 41.7em;
 }
 
 .divv2-center-cloud{

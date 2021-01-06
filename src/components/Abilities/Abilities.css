@@ -1,11 +1,11 @@
-.div1-ab{
-    /*height: 31em;*/
+.Abilities{
     width: 100%;
-    /*padding-left: 7.5%;
-    //padding-right: 7.5%;
-    //background-color: rgba(208, 204, 208, 1);
-    //background-color: rgba(222, 224, 208, 1);*/
     background-color: rgba(147, 183, 190, 1);
+}
+
+.innerDivAbilities{
+    width: 85%;
+    margin: auto;
 }
 
 
@@ -14,26 +14,19 @@
 }
 
 .title-ab{
-    width: 80%;
+    width: 100%;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
-    margin-left: 2.5em;
     color: whitesmoke;
     border-bottom: 1px solid rgb(119, 152, 158);
 }
 
 .div2-ab{
-    /*/height: 31em;
-    //width: 100%;*/
-    padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 5%; 
-    /*background-color: rgba(208, 204, 208, 1);*/
-    background-color: rgba(147, 183, 190, 1);
 }
 
 .ul-ab{
@@ -53,8 +46,6 @@
     text-align: left;
     padding: 1em;
     padding-bottom: 0.4em;
-    /*padding-top: 0.5em;
-    //margin-left: 2.5em;*/
     color: white;
 }
 

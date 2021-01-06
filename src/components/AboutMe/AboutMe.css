@@ -1,105 +1,102 @@
 
-.div1-am{
-    /*height: 31em;*/
-    width: 100%;
-    /*background-color: rgba(208, 204, 208, 1);*/
-    background-color: rgb(25, 24, 26);
+.section-AboutMe{
+    height: 100vh;
 }
 
-.p-am{
+.AboutMe{
+    width: 100%;
+    background-color: rgb(25, 24, 26);
+    align-items: center;
+}
+
+.inner-div-AboutMe{
+    width: 85%;
+    margin: auto;
+}
+
+.p-AboutMe{
     font-size: 1em;
     color: whitesmoke;
 }
-.p-am-des{
+
+.p-AboutMe-description{
     font-size: 1em;
     color: whitesmoke;
     /*padding: 5%;*/
     padding-top: 25%;
-    margin: 0%;
-    text-align: justify;
+
+    text-align: right;
 }
 
-.h4-am{
+.h4-AboutMe{
     font-size: 1.5em;
     color: whitesmoke;
 }
 
-.div-title{
-    align-content: center;
-}
-
-.title-am{
-    width: 80%;
-    
+.title-AboutMe{
+    width: 100%;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
-    margin-left: 2.5em;
     color: whitesmoke;
     border-bottom: 1px solid rgb(44, 43, 46);
 }
 
-.div-image{
-    width: 90%;
+.div-image-AboutMe{
+    width: 100%;
     align-content: center;
-    margin: 0%;
-    padding-left: 5%; 
 }
 
-.image-me{
+.image-AboutMe{
     width: 90%;
     border-radius: 100%;
     border: 10px solid rgba(47, 45, 48, 0.85);
     /*align-content: center;*/
 }
 
-.column-center{
-    margin: 1em;
+.column-left-AboutMe{
+    
+}
+
+.column-center-AboutMe{
     margin-bottom: 2em;
     margin-top: 2em;
-    /*border-right: 3px solid whitesmoke;
-    //align-content: center;*/
 }
-.column-right{
-    margin: 1em;
-    padding-right: 0%;
-    /*margin-right: 0%;*/
+.column-right-AboutMe{
+    padding-bottom: 5%;
 }
-.column-left{
-    margin: 1em;
-    padding-left: 0%;
-    margin-left: 0%;
-}
+
 .column-div{
     text-align: left;
-    padding-left: 30%;
+    padding-left: 15%;
     padding-top: 18%;
 }
 
 .column-div-2{
-    text-align: left;
-    padding-right: 28%;
+    text-align: right;
+    padding-right: 15%;
 }
 
 .extra-div{
     width: 5%;
     padding-top: 10%;
 }
-
+/*
 .row{
     width: 100%;
+    margin: 0;
 }
-
-.anchor-am{
+*/
+.anchor-AboutMe{
     text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
     color:rgb(124, 179, 190);
 }
 
-.anchor-am:hover{
+.anchor-AboutMe:hover{
     text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
     color:rgba(147, 183, 190, 0.85);
