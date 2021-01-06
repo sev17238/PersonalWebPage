@@ -14,11 +14,12 @@
     margin: auto;
 }
 
-.p-am{
+.p-AboutMe{
     font-size: 1em;
     color: whitesmoke;
 }
-.p-am-des{
+
+.p-AboutMe-description{
     font-size: 1em;
     color: whitesmoke;
     /*padding: 5%;*/
@@ -27,7 +28,7 @@
     text-align: right;
 }
 
-.h4-am{
+.h4-AboutMe{
     font-size: 1.5em;
     color: whitesmoke;
 }
@@ -44,27 +45,27 @@
     border-bottom: 1px solid rgb(44, 43, 46);
 }
 
-.div-image{
+.div-image-AboutMe{
     width: 100%;
     align-content: center;
 }
 
-.image-me{
+.image-AboutMe{
     width: 90%;
     border-radius: 100%;
     border: 10px solid rgba(47, 45, 48, 0.85);
     /*align-content: center;*/
 }
 
-.column-left{
+.column-left-AboutMe{
     
 }
 
-.column-center{
+.column-center-AboutMe{
     margin-bottom: 2em;
     margin-top: 2em;
 }
-.column-right{
+.column-right-AboutMe{
     padding-bottom: 5%;
 }
 
@@ -83,19 +84,19 @@
     width: 5%;
     padding-top: 10%;
 }
-
+/*
 .row{
     width: 100%;
     margin: 0;
 }
-
-.anchor-am{
+*/
+.anchor-AboutMe{
     text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
     color:rgb(124, 179, 190);
 }
 
-.anchor-am:hover{
+.anchor-AboutMe:hover{
     text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
     color:rgba(147, 183, 190, 0.85);
