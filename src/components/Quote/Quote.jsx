@@ -14,20 +14,18 @@ export default class Experiences extends React.Component {
 
     render() {
         return (
-            <section>
-                <div className='div-quote'>
-                    <div className='div-quote-in'>
-                        <Pulse>
-                            <p className='p-quote'>
-                                {this.quote}
-                            </p>
-                            <p className='p-quote-ref'>
-                                {this.author}
-                            </p>
-                        </Pulse>
-                    </div>
+            <div className='div-quote'>
+                <div className='div-quote-in'>
+                    <Pulse>
+                        <p className='p-quote'>
+                            {this.quote}
+                        </p>
+                        <p className='p-quote-ref'>
+                            {this.author}
+                        </p>
+                    </Pulse>
                 </div>
-            </section>
+            </div>
         );
     }
 }

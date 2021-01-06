@@ -1,9 +1,17 @@
 
-.div1-am{
-    /*height: 31em;*/
+.section-AboutMe{
+    height: 100vh;
+}
+
+.AboutMe{
     width: 100%;
-    /*background-color: rgba(208, 204, 208, 1);*/
     background-color: rgb(25, 24, 26);
+    align-items: center;
+}
+
+.inner-div-AboutMe{
+    width: 85%;
+    margin: auto;
 }
 
 .p-am{
@@ -15,8 +23,8 @@
     color: whitesmoke;
     /*padding: 5%;*/
     padding-top: 25%;
-    margin: 0%;
-    text-align: justify;
+
+    text-align: right;
 }
 
 .h4-am{
@@ -24,29 +32,21 @@
     color: whitesmoke;
 }
 
-.div-title{
-    align-content: center;
-}
-
-.title-am{
-    width: 80%;
-    
+.title-AboutMe{
+    width: 100%;
     font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
-    margin-left: 2.5em;
     color: whitesmoke;
     border-bottom: 1px solid rgb(44, 43, 46);
 }
 
 .div-image{
-    width: 90%;
+    width: 100%;
     align-content: center;
-    margin: 0%;
-    padding-left: 5%; 
 }
 
 .image-me{
@@ -56,32 +56,27 @@
     /*align-content: center;*/
 }
 
+.column-left{
+    
+}
+
 .column-center{
-    margin: 1em;
     margin-bottom: 2em;
     margin-top: 2em;
-    /*border-right: 3px solid whitesmoke;
-    //align-content: center;*/
 }
 .column-right{
-    margin: 1em;
-    padding-right: 0%;
-    /*margin-right: 0%;*/
+    padding-bottom: 5%;
 }
-.column-left{
-    margin: 1em;
-    padding-left: 0%;
-    margin-left: 0%;
-}
+
 .column-div{
     text-align: left;
-    padding-left: 30%;
+    padding-left: 15%;
     padding-top: 18%;
 }
 
 .column-div-2{
-    text-align: left;
-    padding-right: 28%;
+    text-align: right;
+    padding-right: 15%;
 }
 
 .extra-div{
@@ -91,6 +86,7 @@
 
 .row{
     width: 100%;
+    margin: 0;
 }
 
 .anchor-am{

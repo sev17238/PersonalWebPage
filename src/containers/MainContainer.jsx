@@ -19,7 +19,6 @@ class Container extends Component {
             <Aux>
                 <ViewIntro/>
                 <AboutMe/>
-                <Quote quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
                 <Experiences/>
                 <Abilities/>
                 <Projects/>
