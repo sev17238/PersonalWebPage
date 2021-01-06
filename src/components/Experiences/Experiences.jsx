@@ -71,8 +71,7 @@ export default class Experiences extends React.Component {
                                     src={music}>
                                 </ModExp>
                             </Flip>
-                            <div className='div-line'></div>
-                            <div><h4 className='edu-exp'>Work Experience</h4></div>  
+                            <h4 className='edu-exp'>Work Experience</h4>
                             <LightSpeed left>
                                 <ModExp 
                                     Name='DACSA' 
